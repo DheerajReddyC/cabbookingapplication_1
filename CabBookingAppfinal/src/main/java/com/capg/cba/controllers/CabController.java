@@ -39,7 +39,7 @@ package com.capg.cba.controllers;
 		public ResponseEntity<Object> insertCab(@RequestBody Cab cab) {
 			Cab cab1=service.insertCab(cab);
 			ResponseEntity<Object> responseEntity = new ResponseEntity<Object>(cab1, HttpStatus.OK);
-			System.out.println("response entity=" + responseEntity);
+			System.out.println("response entity =" + responseEntity);
 			return responseEntity;
 		}
 	/*	The @GetMapping annotated methods in the @Controller annotated classes handle the HTTP GET 
