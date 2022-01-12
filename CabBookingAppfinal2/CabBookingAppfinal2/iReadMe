@@ -1,0 +1,86 @@
+Admin
+
+Post Method
+http://localhost:9995/admin/insert
+{
+"adminId":1,
+ "username":"aryan",
+ "password":"password",
+ "address":"india",
+ "mobileNumber":124123121,
+ "email":"aryan@fake.com"
+}
+{
+"adminId":2,
+ "username":"soumya",
+ "password":"password1",
+ "address":"india",
+ "mobileNumber":23423424,
+ "email":"soumya@fake.com"
+}
+
+Cab
+
+Get Method
+http://localhost:9995/Cab/getdetails/{cabId}
+/getdetails/1
+/getdetails/2
+
+Driver
+
+Get Method
+http://localhost:9995/driver/getbestdrivers
+
+Customer
+PutMethod
+http://localhost:9995/customer/update
+{
+    "customerId": 1,
+    "username": "soumya",
+    "password": "smya",
+    "address": "12",
+    "mobileNumber": 1234545667,
+    "email": "sou@gmail.com"
+}
+
+
+Trip booking
+
+Post Method
+http://localhost:9995/TripBooking/insert
+{
+    "tripBookingId":1,
+    "customerId":1,
+    "driverId":1,
+    "fromLocation":"nagole",
+    "toLocation":"ammerpet",
+    "fromLocalDateTime":"2020-12-31T15:53:16",
+    "toLocalDateTime":"2021-01-24T15:53:16",
+    "status":false,
+    "distanceInKm":6.0,
+    "bill":34553.0,
+    "customer":{
+    "customerId": 1,
+    "username": "soumya",
+    "password": "smya",
+    "address": "12",
+    "mobileNumber": 1234545667,
+    "email": "sou@gmail.com"
+    },
+     "driver":{
+ "driverId":1,
+ "licenceNo":"uk1234",
+ "rating":4.6,
+ "username":"aryan",
+ "password":"password",
+ "address":"india",
+ "mobileNumber":124123121,
+ "email":"aryan@fake.com",
+ "cab":{
+ "cabId":1,
+ "carType":"hundai",
+ "perKmRate":13.4
+}
+}
+}
+
