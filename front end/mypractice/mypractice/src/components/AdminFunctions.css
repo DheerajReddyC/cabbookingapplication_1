@@ -1,0 +1,35 @@
+.FuncbuttonAdmin
+{
+    font-size:30px;
+	text-decoration:none;
+    
+
+    color:#232424;
+    font-weight: lighter;
+ 
+    transition: 1s;
+    
+    padding:5px;
+    
+    display:inline-block;
+
+
+}
+
+.FuncbuttonAdmin:hover
+{
+    color:#080808;
+    border-radius:12px;
+    padding:15px;
+    font-size:40px;
+    transition: 0.5s;
+}
+
+.title
+{
+    font-size:50px;
+    font-weight: lighter;
+}
+
+
+

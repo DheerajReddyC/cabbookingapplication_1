@@ -1,0 +1,24 @@
+.loginbutton
+{
+	font-size:35px;
+	text-decoration:none;
+    color:#232424;
+    margin-left:3%;
+    margin-right:3%;
+    transition: 0.5s;
+
+}
+
+.loginbutton:hover
+{
+    color:#080808;
+    font-size:50px;
+    transition: 0.5s;
+}
+
+.title
+{
+    font-size:50px;
+    font-weight: lighter;
+    
+}

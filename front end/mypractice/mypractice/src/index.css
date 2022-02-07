@@ -1,0 +1,19 @@
+body, html {
+  
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.TextField {
+  font-family: 'Montserrat', sans-serif;
+}
+
+html{
+  background-image: url("./components/AdminFuncBg.png");
+}
